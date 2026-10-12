@@ -98,7 +98,7 @@ Deterministic agent implementations used as positive and negative controls:
 
 ### Prerequisites
 
-- Node.js 18.x or 20.x
+- Node.js >= 22.12.0 (standardized requirement for Commander 15)
 - npm 9.x or higher
 
 ### Installation
@@ -216,7 +216,7 @@ The web application is built on Next.js 14 and can be deployed to any Node.js ho
    npm run web:start
    ```
 3. **Environment**:
-   Ensure Node.js 18+ is used. No external database, Redis, or API keys are required.
+   Ensure Node.js >= 22.12.0 is used. No external database, Redis, or API keys are required.
 
 ---
 
@@ -226,7 +226,7 @@ The web application is built on Next.js 14 and can be deployed to any Node.js ho
 # Typecheck core TypeScript
 npm run typecheck
 
-# Run full Vitest test suite (76 tests across core, forensic, evalService, web API)
+# Run full Vitest test suite (81 tests across core, forensic, evalService, web API)
 npm test
 
 # Build core package
